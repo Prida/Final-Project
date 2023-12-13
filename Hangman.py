@@ -175,25 +175,25 @@ def draw_hangman(strikes):
         t.forward(80)  # Body
     elif strikes == 3:
         t.penup()
-        t.goto(-50, -80)
+        t.goto(-50, -40)
         t.pendown()
         t.left(45)
         t.forward(40)  # Left arm
     elif strikes == 4:
         t.penup()
-        t.goto(-50, -80)
+        t.goto(-50, -40)
         t.pendown()
         t.right(225)
         t.forward(40)  # Right arm
     elif strikes == 5:
         t.penup()
-        t.goto(-50, -40)
+        t.goto(-50, -80)
         t.pendown()
         t.left(225)
         t.forward(40)  # Left leg
     elif strikes == 6:
         t.penup()
-        t.goto(-50, -40)
+        t.goto(-50, -80)
         t.pendown()
         t.right(45)
         t.forward(40)  # Right leg

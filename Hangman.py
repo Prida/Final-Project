@@ -132,6 +132,8 @@ def diff_choice():
         while True:
             randword = input("Please enter your word: ")
             if randword.isalpha() and randword:
+                for i in range(20):
+                    print("_")
                  break
             else:
                 print("Invalid input. Please enter a valid string.")

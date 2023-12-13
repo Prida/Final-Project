@@ -76,13 +76,13 @@ def get_difficulty(randword, difficulty):
     
     if len(randword) == 3:
         if difficulty == 1:
-            if score < 30:
+            if score < 31:
                 return True
         elif difficulty == 2:
-            if score == 30:
+            if score == 31:
                 return True
         elif difficulty == 3:
-            if score > 30:
+            if score > 31:
                 return True
         else:
             return False
